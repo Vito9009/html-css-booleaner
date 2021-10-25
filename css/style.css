@@ -1,11 +1,9 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body {
+    width: 1100px;
 }
 
 header {
-    height: 200px;;
+    height: 200px;
     background-image: url(../img/pattern.png);
     background-color: rgb(78, 160, 255);
 }
@@ -16,3 +14,61 @@ header img {
     margin-left: 10px;
 }
 
+main {
+    margin: 10px;
+}
+
+main .info-article {
+    color: rgb(128, 128, 128);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+main a {
+    text-decoration: none;
+    color: rgb(32, 169, 229);
+  }
+
+  main #article-date {
+    font-size: 15px;
+  }
+
+  main section {
+    margin-bottom: 15px;
+  }
+
+  main .info-photo {
+      font-size: 12px;
+      font-weight: 600;
+  }
+
+  main .main-text {
+      margin-top: 15px;
+      font-size: 18px;
+      font-weight: 510;
+  }
+
+  ul {
+    padding-left: 15px;   
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: auto;
+    text-align: left;
+  }
+
+
+table thead {
+    background-color: rgb(32, 169, 229);
+}
+
+table td {
+    width: 500px;
+    padding: 8px;
+}
+
+.odd-tr {
+    background-color: rgb(177, 229, 242);
+}
